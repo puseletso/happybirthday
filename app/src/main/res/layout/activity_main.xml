@@ -1,0 +1,68 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_height="wrap_content"
+    android:layout_width="match_parent"
+    android:orientation="vertical"
+
+    tools:context="com.example.android.happybirthday.MainActivity">
+
+    <EditText
+        android:id="@+id/toname_edittext"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:hint="To : Enter name"
+        android:singleLine="true" />
+
+
+
+
+
+
+
+
+
+
+        <ImageView
+
+            android:paddingTop="100dp"
+            android:id="@+id/happybday_imageView"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:scaleType="centerCrop"
+            android:adjustViewBounds="true"
+            android:singleLine="true"
+            android:imeOptions="actionDone"
+            android:src="@drawable/happybday" />
+
+
+
+
+
+
+
+
+        <EditText
+            android:id="@+id/fromname_edittext"
+            android:layout_alignParentBottom="true"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:gravity="right"
+            android:singleLine="true"
+            android:imeOptions="actionDone"
+            android:hint="From : Enter name"/>
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+</RelativeLayout>
